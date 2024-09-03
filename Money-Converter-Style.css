@@ -1,3 +1,35 @@
 * {
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    background-color: rgb(23, 85, 139);
+}
+
+.logo {
+    /* display: block; */
+    width: 300px;
+    margin:20px auto;
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin:0 auto;
+    padding: 44px 24px 23px;
+}
+label{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+select{
+    background: #ffffff;
+    border-radius: 4px;
+    height: 48px;
+    border:1px solid #bbbbbb ;
 }
